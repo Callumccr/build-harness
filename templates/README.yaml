@@ -1,0 +1,79 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name:
+
+# Canonical Git repo
+github_repo:
+
+# Badges to display
+badges:
+  - name: "Build Status"
+    image: ""
+    url: ""
+
+# Short description of this project
+description: |-
+
+include:
+  - "docs/terraform.md"
+
+# How to use this module
+usage: |-
+  How to use this module:
+
+  ```hcl
+  ```
+
+# How to get up and running with this project
+quickstart: |-
+  How to get up and running with this project:
+    1. First action
+    2. Second action
+    3. Third action 
+
+  ```hcl
+  ```
+
+# Simple and advanced examples of this project
+examples: |-
+  Simple and advanced examples of this project:
+
+  ### Simple Example:
+  ```hcl
+  ```
+
+  ### Advanced Example:
+  ```hcl
+  ```
+
+# Related projects
+related:
+  - name:
+    description:
+    url:
+
+# Project feferences
+references:
+  - name:
+    description:
+    url:
+
+# Jira information
+jira:
+  - project:
+    project_url:
+    epic: 
+    epic_url:
+    user_story: 
+    user_story_url:
+
+contributors:
+  - name: 
+    github: 
+    avator: 
+    homepage:

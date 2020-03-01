@@ -1,0 +1,69 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: build-harness
+
+# Canonical GitHub repo
+github_repo: https://github.com/Callumccr/build-harness
+
+# Badges to display
+# badges:
+#   - name: "Gitlab Build Status"
+#     image: ""
+#     url: ""
+
+# Short description of this project
+description: |-
+  The `build-harness` project is to provide a centralised repository to facilitate building documentation, Dockerfiles, Helm charts, and more.
+
+  It's designed to work with any CI/CD
+
+# How to use this project
+usage: |-
+  In your root repository of the codebase, at the top of your `Makefile` add, the following...
+    ```make
+    include $(shell rm -rf *build-harness)$(shell git clone "https://github.com/Callumccr/build-harness.git")
+    ```
+  This will download a `Makefile` called `.build-harness` and include it at run-time. We recommend adding the `.build-harness` file to your `.gitignore`.
+  This automatically exposes many new targets that you can leverage throughout your build & CI/CD process.
+
+  One you've pulled down `build-harness`, you can run a series of make commands to perform various actions
+
+include:
+
+examples: |-
+  ### Example 1:
+  Generate Terraform documentation:
+
+related:
+  - name:
+    description:
+    url:
+
+# References
+references:
+  - name: "cloudposse/build-harness"
+    description: "Unmodified upstream provided for this module"
+    url: "https://github.com/cloudposse/build-harness"
+  - name: "Wikipedia - Test Harness"
+    description: 'The `build-harness` is similar in concept to a "Test Harness"'
+    url: "https://en.wikipedia.org/wiki/Test_harness"
+
+# Jira information
+jira:
+  - project:
+    project_url:
+    epic: 
+    epic_url:
+    user_story: 
+    user_story_url:
+
+contributors:
+  - name: "Callum Robertson"
+    github: "callumccr"
+    avator: https://media-exp2.licdn.com/dms/image/C5603AQHb_3oZMZA5YA/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&
+    homepage: https://www.linkedin.com/in/callum-robertson-1a55b6110/
