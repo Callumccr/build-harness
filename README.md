@@ -116,7 +116,8 @@ File a Github [issue](https://github.com/Callumccr/build-harness/issues), or mes
 
 
   [callumccr_homepage]: https://www.linkedin.com/in/callum-robertson-1a55b6110/
-  [callumccr_avatar]: %!(EXTRA string=callumccr)
+  [callumccr_avatar]: https://media-exp1.licdn.com/dms/image/C5603AQHb_3oZMZA5YA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=5QQQAlHrm1od5fQNZwdjOtbZWvsGcgNBqFRhZWgnPx4
+
 
 
 

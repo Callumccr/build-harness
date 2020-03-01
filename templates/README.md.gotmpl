@@ -133,7 +133,7 @@ File a Github [issue]({{ printf "%s/issues" (ds "config").github_repo}}), or mes
 {{ end -}}
 {{ if has $contributor "avatar" }}{{ printf "  [%s_avatar]: %s" $contributor.github $contributor.avatar }}
 {{ else -}}
-{{ printf "  [%s_avatar]: " $contributor.github $contributor.github }}
+{{ printf "  [%s_avatar]: https://wariva-github-assets.s3.eu-west-2.amazonaws.com/logo.png" $contributor.github}}
 {{- end }}
 {{ end }}
 {{ end }}
