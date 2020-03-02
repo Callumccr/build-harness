@@ -131,12 +131,21 @@ File a Github [issue]({{ printf "%s/issues" (ds "config").github_repo}}), or mes
 {{ else -}}
 {{ printf "  [%s_homepage]: https://github.com/%s" $contributor.github $contributor.github }}
 {{ end -}}
-{{ if has $contributor "avatar" }}{{ printf "  [%s_avatar]: %s" $contributor.github $contributor.avatar }}
+{{ if has $contributor "avatar" }}
+{{ printf "  [%s_avatar]: %s" $contributor.github $contributor.avatar }}
 {{ else -}}
+<<<<<<< HEAD
 {{ printf "  [%s_avatar]: https://wariva-github-assets.s3.eu-west-2.amazonaws.com/logo.png" $contributor.github}}
+=======
+{{ printf "  [%s_avatar]: https://wariva-github-assets.s3.eu-west-2.amazonaws.com/logo.png" $contributor.github }}
+>>>>>>> master
 {{- end }}
 {{ end }}
 {{ end }}
+
+---
+
+
 
 ---
 
