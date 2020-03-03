@@ -87,6 +87,10 @@ Instead pin to the release tag (e.g. `?ref=tags/x.y.z`) of one of our [latest re
 {{ (ds "config").quickstart }}
 {{ end }}
 
+{{ if has (ds "config") "examples" }}
+## Examples
+{{ (ds "config").examples -}}
+{{ end }}
 
 {{ if has (ds "config") "include" }}
 {{ range $file := (datasource "config").include -}}
@@ -134,11 +138,7 @@ File a Github [issue]({{ printf "%s/issues" (ds "config").github_repo}}), or mes
 {{ if has $contributor "avatar" }}
 {{ printf "  [%s_avatar]: %s" $contributor.github $contributor.avatar }}
 {{ else -}}
-<<<<<<< HEAD
 {{ printf "  [%s_avatar]: https://wariva-github-assets.s3.eu-west-2.amazonaws.com/logo.png" $contributor.github}}
-=======
-{{ printf "  [%s_avatar]: https://wariva-github-assets.s3.eu-west-2.amazonaws.com/logo.png" $contributor.github }}
->>>>>>> master
 {{- end }}
 {{ end }}
 {{ end }}
