@@ -22,6 +22,9 @@ description: |-
 include:
   - "docs/terraform.md"
 
+# Introduction to this project
+introduction: |-
+
 # How to use this module
 usage: |-
   How to use this module:
@@ -63,6 +66,13 @@ references:
     description:
     url:
 
+# Contributor information
+Contributors:
+  - name: 
+    github: 
+    avator: 
+    homepage:
+
 # Jira information
 jira:
   - project:
@@ -71,9 +81,3 @@ jira:
     epic_url:
     user_story: 
     user_story_url:
-
-contributors:
-  - name: 
-    github: 
-    avator: 
-    homepage:

@@ -35,10 +35,19 @@ usage: |-
 
 include:
 
+# Simple and advanced examples of this project
 examples: |-
-  ### Example 1:
-  Generate Terraform documentation:
+  Simple and advanced examples of this project:
 
+  ### Simple Example:
+  ```hcl
+  ```
+
+  ### Advanced Example:
+  ```hcl
+  ```
+
+# Related projects
 related:
   - name:
     description:
@@ -62,6 +71,7 @@ jira:
     user_story: 
     user_story_url:
 
+# Active contributors
 contributors:
   - name: "Callum Robertson"
     github: "callumccr"
